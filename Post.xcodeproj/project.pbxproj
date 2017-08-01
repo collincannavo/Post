@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		B6D895A41EF07A7D00327B5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D895A31EF07A7D00327B5B /* AppDelegate.swift */; };
-		B6D895A61EF07A7D00327B5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D895A51EF07A7D00327B5B /* ViewController.swift */; };
 		B6D895A91EF07A7D00327B5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D895A71EF07A7D00327B5B /* Main.storyboard */; };
 		B6D895AB1EF07A7D00327B5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D895AA1EF07A7D00327B5B /* Assets.xcassets */; };
 		B6D895AE1EF07A7D00327B5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D895AC1EF07A7D00327B5B /* LaunchScreen.storyboard */; };
+		B6D895B61EF07A8D00327B5B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D895B51EF07A8D00327B5B /* Post.swift */; };
+		B6D895B81EF07AAA00327B5B /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D895B71EF07AAA00327B5B /* PostController.swift */; };
+		B6D895BA1EF08F5000327B5B /* PostListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D895B91EF08F5000327B5B /* PostListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B6D895A01EF07A7D00327B5B /* Post.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Post.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D895A31EF07A7D00327B5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B6D895A51EF07A7D00327B5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B6D895A81EF07A7D00327B5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6D895AA1EF07A7D00327B5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6D895AD1EF07A7D00327B5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6D895AF1EF07A7D00327B5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D895B51EF07A8D00327B5B /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		B6D895B71EF07AAA00327B5B /* PostController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
+		B6D895B91EF08F5000327B5B /* PostListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				B6D895A31EF07A7D00327B5B /* AppDelegate.swift */,
-				B6D895A51EF07A7D00327B5B /* ViewController.swift */,
 				B6D895A71EF07A7D00327B5B /* Main.storyboard */,
+				B6D895B91EF08F5000327B5B /* PostListTableViewController.swift */,
+				B6D895B51EF07A8D00327B5B /* Post.swift */,
+				B6D895B71EF07AAA00327B5B /* PostController.swift */,
 				B6D895AA1EF07A7D00327B5B /* Assets.xcassets */,
 				B6D895AC1EF07A7D00327B5B /* LaunchScreen.storyboard */,
 				B6D895AF1EF07A7D00327B5B /* Info.plist */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6D895A61EF07A7D00327B5B /* ViewController.swift in Sources */,
 				B6D895A41EF07A7D00327B5B /* AppDelegate.swift in Sources */,
+				B6D895B61EF07A8D00327B5B /* Post.swift in Sources */,
+				B6D895B81EF07AAA00327B5B /* PostController.swift in Sources */,
+				B6D895BA1EF08F5000327B5B /* PostListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
